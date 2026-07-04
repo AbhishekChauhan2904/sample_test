@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import '../styles/task.css';
 import '../styles/auth.css';
-const API_URL = process.env.REACT_URL || 'http://localhost:5001/api';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5001/api';
 
 const OPERATIONS = [
   { value: 'UPPERCASE', label: 'Uppercase' },
